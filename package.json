@@ -1,0 +1,48 @@
+{
+  "name": "claude-manager",
+  "version": "1.0.0",
+  "description": "CLI tool to manage Claude Code configurations across multiple LLM providers",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "claude-manager": "./bin/claude-manager.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "llm",
+    "openrouter",
+    "anthropic",
+    "cli",
+    "configuration"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "ink": "^5.0.1",
+    "ink-select-input": "^6.0.0",
+    "ink-text-input": "^6.0.0",
+    "react": "^18.3.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.12",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ]
+}
