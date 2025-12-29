@@ -4,6 +4,8 @@ CLI tool to easily manage and switch Claude Code configurations across multiple 
 
 ## Overview
 
+![Claude Manager UI](./public/claude-cfg.png)
+
 `claude-cfg` helps you quickly configure Claude Code to work with different LLM providers including:
 
 - **Anthropic** (default)
